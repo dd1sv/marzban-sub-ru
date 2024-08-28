@@ -3620,6 +3620,7 @@ function detectOS() {
                 Android: "Android",
                 iOS: "iOS",
                 Windows: "Windows",
+				AndroidTV: "Телевизоры Android TV",
                 macOS: "macOS",
                 tutorials: "инструкции",
                 subscription: "подписка",
@@ -4072,7 +4073,7 @@ function detectOS() {
                                                                         <p x-text="$t('routingInfo')"
                                                                             class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                         </p>
-                                                                        
+
                                                                         <a href="streisand://aW1wb3J0L3JvdXRlOi8vWW5Cc2FYTjBNRERWQVFJREJBVUdEQjhnSVZWeWRXeGxjMTFrYjIxaGFXNU5ZWFJqYUdWeVZHNWhiV1ZlWkc5dFlXbHVVM1J5WVhSbFozbFVkWFZwWktNSEVSWFVDQWtLQ3d3TkRoQmRaRzl0WVdsdVRXRjBZMmhsY2xaa2IyMWhhVzVTYVhCYmIzVjBZbTkxYm1SVVlXZFdiR2x1WldGeW9LRVBXR2RsYjJsd09uSjFWbVJwY21WamROSVNDUkFUVzI5MWRHSnZkVzVrVkdGbm9SUmVjbVZuWlhod09pNHFYQzV5ZFNUVEZoY0pFQmdaVzI5MWRHSnZkVzVrVkdGblhXUnZiV0ZwYmsxaGRHTm9aWEpXYUhsaWNtbGtwUm9iSEIwZVh4QVFaMlZ2YzJsMFpUcDBaV3hsWjNKaGJWOFFFR2RsYjNOcGRHVTZkMmhoZEhOaGNIQmRaMlZ2YzJsMFpUcGhjSEJzWlY1blpXOXphWFJsT21kdmIyZHNaVjVuWlc5emFYUmxPbWwwZFc1bGMyMEFVZ0JWQUMwQVJBQnBBSElBWlFCakFIVFlQTjMzMkR6ZCtscEpVRTl1UkdWdFlXNWtYeEFrUXpRelFrVTVSRGt0T0RGQk15MDBRamhGTFRrM1JrTXRPRFE0TlVFNFJqZENRelkyQUFnQUV3QVpBQ2NBTEFBN0FFQUFSQUJOQUZzQVlnQmxBSEVBZUFCNUFIc0FoQUNMQUpBQW5BQ2VBSzBBdEFEQUFNNEExUURiQU80QkFRRVBBUjRCTFFGSUFWTUFBQUFBQUFBQ0FRQUFBQUFBQUFBaUFBQUFBQUFBQUFBQUFBQUFBQUFCZWc9PQ=="
                                                                             class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                             <div class="rounded-xl overflow-hidden">
@@ -4106,9 +4107,9 @@ function detectOS() {
                                                                             </lord-icon>
                                                                         </a>
 
-                                                                        
-                                                                   
-                                                                    
+
+
+
                                                                     <a href="streisand://aW1wb3J0L3JvdXRlOi8vWW5Cc2FYTjBNRERWQVFJREJBVUdMaTh3TVZWeWRXeGxjMTFrYjIxaGFXNU5ZWFJqYUdWeVZHNWhiV1ZlWkc5dFlXbHVVM1J5WVhSbFozbFVkWFZwWktRSEdpTW8wd2dKQ2dzTURWdHZkWFJpYjNWdVpGUmhaMTFrYjIxaGFXNU5ZWFJqYUdWeVZtUnZiV0ZwYmxWd2NtOTRlVlpzYVc1bFlYS3NEZzhRRVJJVEZCVVdGeGdaWHhBUloyVnZjMmwwWlRwcGJuTjBZV2R5WVcxZkVBOW5aVzl6YVhSbE9uUjNhWFIwWlhKZkVCQm5aVzl6YVhSbE9tWmhZMlZpYjI5clh4QVZaMlZ2YzJsMFpUcGpZWFJsWjI5eWVTMXdiM0p1WG1kbGIzTnBkR1U2ZEhkcGRHTm9YeEFQWjJWdmMybDBaVHB3YjNKdWFIVmlYbWRsYjNOcGRHVTZkR2xyZEc5clh4QVBaMlZ2YzJsMFpUcDFZbWx6YjJaMFh4QVBaMlZ2YzJsMFpUcHpjRzkwYVdaNVhtZGxiM05wZEdVNmIzQmxibUZwWHhBUVoyVnZjMmwwWlRweWIyTnJjM1JoY2xocmFXNXZMbkIxWXRRYkNod2REQjRoSWwxa2IyMWhhVzVOWVhSamFHVnlVbWx3VzI5MWRHSnZkVzVrVkdGbm9oOGdYeEFYWjJWdmMybDBaVHBqWVhSbFoyOXllUzFuYjNZdGNuVmZFQTluWlc5emFYUmxPbkJ5YVhaaGRHV2dWbVJwY21WamROTWNKQ1VtRENKZFpHOXRZV2x1VFdGMFkyaGxjbHR2ZFhSaWIzVnVaRlJoWjZFbldUQXVNQzR3TGpBdk1OTXBLZ29pREN0YmIzVjBZbTkxYm1SVVlXZGRaRzl0WVdsdVRXRjBZMmhsY3FJc0xWOFFFR2RsYjNOcGRHVTZkR1ZzWldkeVlXMWZFQkJuWlc5emFYUmxPbmRvWVhSellYQndWbWg1WW5KcFpGMVRiMk5wWVd4RWFYSmxZM1F4WEVsUVNXWk9iMjVOWVhSamFGOFFKRVkyTURsRlJrUTJMVUl6TVVZdE5FRTVPQzFCUWprd0xVSkJSREpDUXpNNE5rWTJPUUFJQUJNQUdRQW5BQ3dBT3dCQUFFVUFUQUJZQUdZQWJRQnpBSG9BaHdDYkFLMEF3QURZQU9jQStRRUlBUm9CTEFFN0FVNEJWd0ZnQVc0QmNRRjlBWUFCbWdHc0FhMEJ0QUc3QWNrQjFRSFhBZUVCNkFIMEFnSUNCUUlZQWlzQ01nSkFBazBBQUFBQUFBQUNBUUFBQUFBQUFBQXlBQUFBQUFBQUFBQUFBQUFBQUFBQ2RBPT0="
                                                                         class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-slate-100 via-blue-600 to-rose-700 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                         <div class="rounded-xl overflow-hidden">
@@ -4148,7 +4149,7 @@ function detectOS() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
 
 
 
@@ -4303,7 +4304,7 @@ function detectOS() {
                                                                         <p x-text="$t('routingInfo')"
                                                                             class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                         </p>
-                                                                        
+
                                                                         <a href="shadowrocket://config/add/https://dignezzz.github.io/ru_direct.conf"
                                                                             class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                             <div class="rounded-xl overflow-hidden">
@@ -4506,7 +4507,7 @@ function detectOS() {
                                                                         <p x-text="$t('routingInfo')"
                                                                             class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                         </p>
-                                                                        
+
                                                                         <a href="v2box://routes?multi=W3sidHlwZSI6IkRvbWFpbiIsIm1hdGNoTW9kZSI6ImtleXdvcmQiLCJ0YWciOiJkaXJlY3QiLCJuYW1lIjoicm91dGUuRDM4OEU3MjMtOTJENS00QkJDLUFFNEItMzkyQkM0NTI3ODMyIiwibGlzdCI6WyJyZWdleHA6LipcXC5ydSQiXSwicmVtYXJrIjoiUlUtRGlyZWN0IiwiaXNFbmFibGUiOnRydWUsImxpc3RJUCI6WyJnZW9pcDpydSJdfSx7InJlbWFyayI6Ik1lc3NhZ2Vycy1kaXJlY3QiLCJ0YWciOiJkaXJlY3QiLCJpc0VuYWJsZSI6dHJ1ZSwibmFtZSI6InJvdXRlLkE2MDkwODQyLTVDMzYtNDJFMi1BMkI5LTdERjlEODA2ODM4NiIsImxpc3RJUCI6W10sIm1hdGNoTW9kZSI6ImtleXdvcmQiLCJ0eXBlIjoiRG9tYWluIiwibGlzdCI6WyJnZW9zaXRlOnRlbGVncmFtIiwiZ2Vvc2l0ZTp3aGF0c2FwcCIsImdlb3NpdGU6YXBwbGUiLCJnZW9zaXRlOml0dW5lcyIsImdlb3NpdGU6Z29vZ2xlIiwiZ2Vvc2l0ZTp5YW5kZXgiXX1d"
                                                                             class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                             <div class="rounded-xl overflow-hidden">
@@ -4548,7 +4549,7 @@ function detectOS() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -4598,7 +4599,7 @@ function detectOS() {
                                             class="bg-gray-900 px-4 py-2 rounded-xl mb-6 mt-4 text-sm sm:text-base">
                                             <p x-text="$t('chooseApp')" class="text-sm"></p>
                                         </div>
-                                        
+
                                         <div class="flex flex-col gap-y-4">
                                             <div
                                                 class="text-white bg-gradient-to-r from-purple-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
@@ -4633,7 +4634,7 @@ function detectOS() {
                                                                     class="flex items-center justify-start gap-x-2">
                                                                     <span x-text="$t('addStreisand')">
                                                                     </span>
-                                                                    
+
                                                                 </div>
                                                             </div>
                                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -4663,7 +4664,7 @@ function detectOS() {
                                                                                 <g clip-path="url(#clip0_23_24)">
                                                                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.987 4.5C8.987 1.5 10.487 0 13.487 0C13.487 3 11.987 4.5 8.987 4.5ZM7.66 6.133C7.018 5.838 6.282 5.5 5.323 5.5C3.194 5.5 0 7.629 0 11.887C0 16.145 2.7 22 5.323 22C6.121 22 6.653 21.734 7.186 21.468C7.718 21.202 8.25 20.936 9.049 20.936C9.847 20.936 10.512 21.202 11.178 21.468C11.843 21.734 12.508 22 13.307 22C15.142 22 17.014 19.136 17.973 15.956C17.091 15.636 15.327 13.985 15.327 11.887C15.327 9.181 16.564 7.964 17.182 7.557C16.067 6.186 14.515 5.5 13.307 5.5C12.347 5.5 11.443 5.838 10.653 6.133C10.04 6.361 9.496 6.565 9.049 6.565C8.601 6.565 8.159 6.361 7.66 6.133Z" fill="white"></path>
                                                                                 </g>
-                                                                              
+
                                                                                 <defs>
                                                                                     <clipPath id="clip0_23_24">
                                                                                         <rect width="24" height="24"
@@ -4747,7 +4748,7 @@ function detectOS() {
                                                                     <p x-text="$t('routingInfo')"
                                                                         class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                     </p>
-                                                                    
+
                                                                     <a href="streisand://aW1wb3J0L3JvdXRlOi8vWW5Cc2FYTjBNRERWQVFJREJBVUdEQjhnSVZWeWRXeGxjMTFrYjIxaGFXNU5ZWFJqYUdWeVZHNWhiV1ZlWkc5dFlXbHVVM1J5WVhSbFozbFVkWFZwWktNSEVSWFVDQWtLQ3d3TkRoQmRaRzl0WVdsdVRXRjBZMmhsY2xaa2IyMWhhVzVTYVhCYmIzVjBZbTkxYm1SVVlXZFdiR2x1WldGeW9LRVBXR2RsYjJsd09uSjFWbVJwY21WamROSVNDUkFUVzI5MWRHSnZkVzVrVkdGbm9SUmVjbVZuWlhod09pNHFYQzV5ZFNUVEZoY0pFQmdaVzI5MWRHSnZkVzVrVkdGblhXUnZiV0ZwYmsxaGRHTm9aWEpXYUhsaWNtbGtwUm9iSEIwZVh4QVFaMlZ2YzJsMFpUcDBaV3hsWjNKaGJWOFFFR2RsYjNOcGRHVTZkMmhoZEhOaGNIQmRaMlZ2YzJsMFpUcGhjSEJzWlY1blpXOXphWFJsT21kdmIyZHNaVjVuWlc5emFYUmxPbWwwZFc1bGMyMEFVZ0JWQUMwQVJBQnBBSElBWlFCakFIVFlQTjMzMkR6ZCtscEpVRTl1UkdWdFlXNWtYeEFrUXpRelFrVTVSRGt0T0RGQk15MDBRamhGTFRrM1JrTXRPRFE0TlVFNFJqZENRelkyQUFnQUV3QVpBQ2NBTEFBN0FFQUFSQUJOQUZzQVlnQmxBSEVBZUFCNUFIc0FoQUNMQUpBQW5BQ2VBSzBBdEFEQUFNNEExUURiQU80QkFRRVBBUjRCTFFGSUFWTUFBQUFBQUFBQ0FRQUFBQUFBQUFBaUFBQUFBQUFBQUFBQUFBQUFBQUFCZWc9PQ=="
                                                                             class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                             <div class="rounded-xl overflow-hidden">
@@ -4781,9 +4782,9 @@ function detectOS() {
                                                                             </lord-icon>
                                                                         </a>
 
-                                                                        
-                                                                   
-                                                                    
+
+
+
                                                                     <a href="streisand://aW1wb3J0L3JvdXRlOi8vWW5Cc2FYTjBNRERWQVFJREJBVUdMaTh3TVZWeWRXeGxjMTFrYjIxaGFXNU5ZWFJqYUdWeVZHNWhiV1ZlWkc5dFlXbHVVM1J5WVhSbFozbFVkWFZwWktRSEdpTW8wd2dKQ2dzTURWdHZkWFJpYjNWdVpGUmhaMTFrYjIxaGFXNU5ZWFJqYUdWeVZtUnZiV0ZwYmxWd2NtOTRlVlpzYVc1bFlYS3NEZzhRRVJJVEZCVVdGeGdaWHhBUloyVnZjMmwwWlRwcGJuTjBZV2R5WVcxZkVBOW5aVzl6YVhSbE9uUjNhWFIwWlhKZkVCQm5aVzl6YVhSbE9tWmhZMlZpYjI5clh4QVZaMlZ2YzJsMFpUcGpZWFJsWjI5eWVTMXdiM0p1WG1kbGIzTnBkR1U2ZEhkcGRHTm9YeEFQWjJWdmMybDBaVHB3YjNKdWFIVmlYbWRsYjNOcGRHVTZkR2xyZEc5clh4QVBaMlZ2YzJsMFpUcDFZbWx6YjJaMFh4QVBaMlZ2YzJsMFpUcHpjRzkwYVdaNVhtZGxiM05wZEdVNmIzQmxibUZwWHhBUVoyVnZjMmwwWlRweWIyTnJjM1JoY2xocmFXNXZMbkIxWXRRYkNod2REQjRoSWwxa2IyMWhhVzVOWVhSamFHVnlVbWx3VzI5MWRHSnZkVzVrVkdGbm9oOGdYeEFYWjJWdmMybDBaVHBqWVhSbFoyOXllUzFuYjNZdGNuVmZFQTluWlc5emFYUmxPbkJ5YVhaaGRHV2dWbVJwY21WamROTWNKQ1VtRENKZFpHOXRZV2x1VFdGMFkyaGxjbHR2ZFhSaWIzVnVaRlJoWjZFbldUQXVNQzR3TGpBdk1OTXBLZ29pREN0YmIzVjBZbTkxYm1SVVlXZGRaRzl0WVdsdVRXRjBZMmhsY3FJc0xWOFFFR2RsYjNOcGRHVTZkR1ZzWldkeVlXMWZFQkJuWlc5emFYUmxPbmRvWVhSellYQndWbWg1WW5KcFpGMVRiMk5wWVd4RWFYSmxZM1F4WEVsUVNXWk9iMjVOWVhSamFGOFFKRVkyTURsRlJrUTJMVUl6TVVZdE5FRTVPQzFCUWprd0xVSkJSREpDUXpNNE5rWTJPUUFJQUJNQUdRQW5BQ3dBT3dCQUFFVUFUQUJZQUdZQWJRQnpBSG9BaHdDYkFLMEF3QURZQU9jQStRRUlBUm9CTEFFN0FVNEJWd0ZnQVc0QmNRRjlBWUFCbWdHc0FhMEJ0QUc3QWNrQjFRSFhBZUVCNkFIMEFnSUNCUUlZQWlzQ01nSkFBazBBQUFBQUFBQUNBUUFBQUFBQUFBQXlBQUFBQUFBQUFBQUFBQUFBQUFBQ2RBPT0="
                                                                         class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-slate-100 via-blue-600 to-rose-700 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                         <div class="rounded-xl overflow-hidden">
@@ -4823,7 +4824,7 @@ function detectOS() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            
+
                                             <div
                                                 class="text-white bg-gradient-to-r from-slate-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
                                                 <!-- Accordion item -->
@@ -4895,7 +4896,7 @@ function detectOS() {
                                                                                 <g clip-path="url(#clip0_23_24)">
                                                                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.987 4.5C8.987 1.5 10.487 0 13.487 0C13.487 3 11.987 4.5 8.987 4.5ZM7.66 6.133C7.018 5.838 6.282 5.5 5.323 5.5C3.194 5.5 0 7.629 0 11.887C0 16.145 2.7 22 5.323 22C6.121 22 6.653 21.734 7.186 21.468C7.718 21.202 8.25 20.936 9.049 20.936C9.847 20.936 10.512 21.202 11.178 21.468C11.843 21.734 12.508 22 13.307 22C15.142 22 17.014 19.136 17.973 15.956C17.091 15.636 15.327 13.985 15.327 11.887C15.327 9.181 16.564 7.964 17.182 7.557C16.067 6.186 14.515 5.5 13.307 5.5C12.347 5.5 11.443 5.838 10.653 6.133C10.04 6.361 9.496 6.565 9.049 6.565C8.601 6.565 8.159 6.361 7.66 6.133Z" fill="white"></path>
                                                                                 </g>
-                                                                              
+
                                                                                 <defs>
                                                                                     <clipPath id="clip0_23_24">
                                                                                         <rect width="24" height="24"
@@ -4982,7 +4983,7 @@ function detectOS() {
                                                                     <p x-text="$t('routingInfo')"
                                                                         class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                     </p>
-                                                                    
+
                                                                     <a href="v2box://routes?multi=W3sidHlwZSI6IkRvbWFpbiIsIm1hdGNoTW9kZSI6ImtleXdvcmQiLCJ0YWciOiJkaXJlY3QiLCJuYW1lIjoicm91dGUuRDM4OEU3MjMtOTJENS00QkJDLUFFNEItMzkyQkM0NTI3ODMyIiwibGlzdCI6WyJyZWdleHA6LipcXC5ydSQiXSwicmVtYXJrIjoiUlUtRGlyZWN0IiwiaXNFbmFibGUiOnRydWUsImxpc3RJUCI6WyJnZW9pcDpydSJdfSx7InJlbWFyayI6Ik1lc3NhZ2Vycy1kaXJlY3QiLCJ0YWciOiJkaXJlY3QiLCJpc0VuYWJsZSI6dHJ1ZSwibmFtZSI6InJvdXRlLkE2MDkwODQyLTVDMzYtNDJFMi1BMkI5LTdERjlEODA2ODM4NiIsImxpc3RJUCI6W10sIm1hdGNoTW9kZSI6ImtleXdvcmQiLCJ0eXBlIjoiRG9tYWluIiwibGlzdCI6WyJnZW9zaXRlOnRlbGVncmFtIiwiZ2Vvc2l0ZTp3aGF0c2FwcCIsImdlb3NpdGU6YXBwbGUiLCJnZW9zaXRlOml0dW5lcyIsImdlb3NpdGU6Z29vZ2xlIiwiZ2Vvc2l0ZTp5YW5kZXgiXX1d"
                                                                         class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                         <div class="rounded-xl overflow-hidden">
@@ -5024,7 +5025,7 @@ function detectOS() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            
+
 
                                             <div
                                                     class="text-white bg-gradient-to-r from-teal-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
@@ -5088,7 +5089,7 @@ function detectOS() {
                                                                                     <g clip-path="url(#clip0_23_24)">
                                                                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.987 4.5C8.987 1.5 10.487 0 13.487 0C13.487 3 11.987 4.5 8.987 4.5ZM7.66 6.133C7.018 5.838 6.282 5.5 5.323 5.5C3.194 5.5 0 7.629 0 11.887C0 16.145 2.7 22 5.323 22C6.121 22 6.653 21.734 7.186 21.468C7.718 21.202 8.25 20.936 9.049 20.936C9.847 20.936 10.512 21.202 11.178 21.468C11.843 21.734 12.508 22 13.307 22C15.142 22 17.014 19.136 17.973 15.956C17.091 15.636 15.327 13.985 15.327 11.887C15.327 9.181 16.564 7.964 17.182 7.557C16.067 6.186 14.515 5.5 13.307 5.5C12.347 5.5 11.443 5.838 10.653 6.133C10.04 6.361 9.496 6.565 9.049 6.565C8.601 6.565 8.159 6.361 7.66 6.133Z" fill="white"></path>
                                                                                     </g>
-                                                                                  
+
                                                                                     <defs>
                                                                                         <clipPath id="clip0_23_24">
                                                                                             <rect width="24" height="24"
@@ -5174,7 +5175,7 @@ function detectOS() {
                                                                         <p x-text="$t('routingInfo')"
                                                                             class="text-sm mb-4 font-normal text-white lg:text-base">
                                                                         </p>
-                                                                        
+
                                                                         <a href="shadowrocket://config/add/https://dignezzz.github.io/ru_direct.conf"
                                                                             class="flex mb-4 items-center gap-x-4 w-full shadow-md px-3 py-2 bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 focus:ring-4 focus:outline-none focus:ring-blue-700 transition-all duration-300 justify-between rounded-2xl">
                                                                             <div class="rounded-xl overflow-hidden">
@@ -5351,7 +5352,7 @@ function detectOS() {
                                                                                 <g clip-path="url(#clip0_23_24)">
                                                                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.987 4.5C8.987 1.5 10.487 0 13.487 0C13.487 3 11.987 4.5 8.987 4.5ZM7.66 6.133C7.018 5.838 6.282 5.5 5.323 5.5C3.194 5.5 0 7.629 0 11.887C0 16.145 2.7 22 5.323 22C6.121 22 6.653 21.734 7.186 21.468C7.718 21.202 8.25 20.936 9.049 20.936C9.847 20.936 10.512 21.202 11.178 21.468C11.843 21.734 12.508 22 13.307 22C15.142 22 17.014 19.136 17.973 15.956C17.091 15.636 15.327 13.985 15.327 11.887C15.327 9.181 16.564 7.964 17.182 7.557C16.067 6.186 14.515 5.5 13.307 5.5C12.347 5.5 11.443 5.838 10.653 6.133C10.04 6.361 9.496 6.565 9.049 6.565C8.601 6.565 8.159 6.361 7.66 6.133Z" fill="white"></path>
                                                                                 </g>
-                                                                              
+
                                                                                 <defs>
                                                                                     <clipPath id="clip0_23_24">
                                                                                         <rect width="24" height="24"
@@ -5715,7 +5716,7 @@ function detectOS() {
                                                                     </a>
                                                                 <!---------------------------------------->
                                                             </div>
-                                                            
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -5830,7 +5831,7 @@ function detectOS() {
                                                     <!-- Accordion item -->
                                                     <div x-data="{ expanded: false }">
                                                         <h2>
-                                                            
+
                                                         </h2>
                                                         <div id="faqs-text-01" role="region"
                                                             aria-labelledby="faqs-title-01"
@@ -5910,6 +5911,10 @@ function detectOS() {
                             </div>
 
                         </div>
+
+
+
+
                         <div id="WindowsContainer"
                             class="flex mb-2 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 rounded-2xl p-1 drop-shadow-lg shadow-xl dark:text-white text-black">
                             <!-- Accordion item -->
@@ -5956,7 +5961,7 @@ function detectOS() {
                                                             class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
                                                             :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
                                                             <div class="overflow-hidden">
-                                                                
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -5971,8 +5976,8 @@ function detectOS() {
                                                         class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
                                                         :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
                                                         <div class="overflow-hidden">
-                                                            
-                                                            
+
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -6085,7 +6090,7 @@ function detectOS() {
                                                                     </a>
                                                                 <!---------------------------------------->
                                                             </div>
-                                                            
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -6198,6 +6203,370 @@ function detectOS() {
                                 </div>
                             </div>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div id="TVContainer"
+                            class="flex mb-2 bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 rounded-2xl p-1 drop-shadow-lg shadow-xl dark:text-white text-black">
+                            <!-- Accordion item -->
+                            <div x-data="{ expanded: false }">
+                                <h2>
+                                    <button id="faqs-title-01" type="button"
+                                        class="flex p-4 rtl:pl-0 items-center justify-between w-full text-left font-semibold"
+                                        @click="expanded = !expanded" :aria-expanded="expanded"
+                                        aria-controls="faqs-text-01">
+                                        <div
+                                            class="flex items-center justify-start gap-x-2 text-lg sm:text-xl font-medium">
+
+<svg class="w-6 h-6" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9.17 1.165C9.07551 0.997296 8.92015 0.872344 8.73609 0.816007C8.55202 0.75967 8.35334 0.776261 8.18117 0.862346C8.009 0.948432 7.87652 1.09742 7.81115 1.27847C7.74578 1.45953 7.75253 1.65878 7.83 1.835L8.667 3.51C8.00017 3.9556 7.42938 4.53028 6.98832 5.20012C6.54726 5.86996 6.24487 6.62137 6.099 7.41L5.99 8H18.01L17.901 7.41C17.7551 6.62137 17.4527 5.86996 17.0117 5.20012C16.5706 4.53028 15.9998 3.9556 15.333 3.51L16.171 1.835C16.258 1.65726 16.2713 1.45232 16.2078 1.26486C16.1444 1.07739 16.0095 0.922596 15.8324 0.834197C15.6553 0.745798 15.4505 0.730964 15.2626 0.792928C15.0746 0.854892 14.9188 0.988631 14.829 1.165L13.992 2.839C13.352 2.61401 12.6784 2.49938 12 2.5C11.3216 2.49938 10.648 2.61401 10.008 2.839L9.17 1.165ZM3.5 9C3.10218 9 2.72064 9.15804 2.43934 9.43934C2.15804 9.72064 2 10.1022 2 10.5V15.5C2 15.8978 2.15804 16.2794 2.43934 16.5607C2.72064 16.842 3.10218 17 3.5 17C3.89782 17 4.27936 16.842 4.56066 16.5607C4.84196 16.2794 5 15.8978 5 15.5V10.5C5 10.1022 4.84196 9.72064 4.56066 9.43934C4.27936 9.15804 3.89782 9 3.5 9ZM20.5 9C20.1022 9 19.7206 9.15804 19.4393 9.43934C19.158 9.72064 19 10.1022 19 10.5V15.5C19 15.8978 19.158 16.2794 19.4393 16.5607C19.7206 16.842 20.1022 17 20.5 17C20.8978 17 21.2794 16.842 21.5607 16.5607C21.842 16.2794 22 15.8978 22 15.5V10.5C22 10.1022 21.842 9.72064 21.5607 9.43934C21.2794 9.15804 20.8978 9 20.5 9ZM18 9H6V17.5C6 17.8978 6.15804 18.2794 6.43934 18.5607C6.72064 18.842 7.10218 19 7.5 19H8V21.5C8 21.8978 8.15804 22.2794 8.43934 22.5607C8.72064 22.842 9.10218 23 9.5 23C9.89782 23 10.2794 22.842 10.5607 22.5607C10.842 22.2794 11 21.8978 11 21.5V19H13V21.5C13 21.8978 13.158 22.2794 13.4393 22.5607C13.7206 22.842 14.1022 23 14.5 23C14.8978 23 15.2794 22.842 15.5607 22.5607C15.842 22.2794 16 21.8978 16 21.5V19H16.5C16.8978 19 17.2794 18.842 17.5607 18.5607C17.842 18.2794 18 17.8978 18 17.5V9Z"
+                                                    fill="white" />
+                                            </svg>
+											<span x-text="$t('AndroidTV')">
+                                            </span>
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" :class="{'!rotate-180': expanded}"
+                                            class="w-6 h-6 mx-6 transform origin-center transition duration-200 ease-out">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="faqs-text-01" role="region" aria-labelledby="faqs-title-01"
+                                    class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
+                                    :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
+                                    <div class="overflow-hidden">
+                                        <div class="p-4 pb-6">
+                                            <div class="bg-gray-900 px-4 py-2 rounded-xl mb-1">
+                                                <p class="text-sm">Посмотрите видеоролик про настройку</p>
+                                            </div>
+                                            <div class="flex flex-col gap-y-4">
+                                                <div
+                                                    class="text-white bg-gradient-to-r from-amber-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
+                                                    <!-- Accordion item -->
+                                                    <div x-data="{ expanded: false }">
+                                                       <div id="faqs-text-01" role="region"
+                                                            aria-labelledby="faqs-title-01"
+                                                            class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
+                                                            :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
+                                                            <div class="overflow-hidden">
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!---- Начало секции приложения --->
+												<div
+                                                class="text-white bg-gradient-to-r from-cyan-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
+                                                <!-- Accordion item -->
+                                                <div x-data="{ expanded: false }">
+                                                    <div id="faqs-text-01" role="region"
+                                                        aria-labelledby="faqs-title-01"
+                                                        class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
+                                                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
+                                                        <div class="overflow-hidden">
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-----------КОНЕЦ СЕКЦИИ ПРИЛОЖЕНИЯ----------------------------->
+
+                                             <!---- Начало секции приложения --->
+												<div
+                                                class="text-white bg-gradient-to-r from-teal-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
+                                                <!-- Accordion item -->
+                                                <div x-data="{ expanded: false }">
+                                                    <h2>
+                                                        <button style="direction: ltr;" id="faqs-title-01"
+                                                            type="button"
+                                                            class="flex items-center p-4 justify-between w-full text-left font-semibold"
+                                                            @click="expanded = !expanded" :aria-expanded="expanded"
+                                                            aria-controls="faqs-text-01">
+                                                            <div
+                                                                class="flex items-center justify-start gap-x-2 text-lg sm:text-xl font-medium">
+
+                                                                <span>Смотреть ролик на YouTube
+                                                                </span>
+                                                                <div
+                                                                        class="bg-gray-100 pb-1.5 px-2 pt-1 rounded-full">
+
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            viewBox="0 0 24 24" fill="currentColor"
+                                                                            class="w-6 h-6 fill-yellow-500 stroke-yellow-500">
+                                                                            <path fill-rule="evenodd"
+                                                                                d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                                clip-rule="evenodd" />
+                                                                        </svg>
+
+
+                                                                    </div>
+                                                            </div>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                viewBox="0 0 24 24" stroke-width="1.5"
+                                                                stroke="currentColor"
+                                                                :class="{'!rotate-180': expanded}"
+                                                                class="w-6 h-6 mx-6 transform origin-center transition duration-200 ease-out">
+                                                                <path strokeLinecap="round" strokeLinejoin="round"
+                                                                    d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                                                            </svg>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="faqs-text-01" role="region"
+                                                        aria-labelledby="faqs-title-01"
+                                                        class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
+                                                        :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
+                                                        <div class="overflow-hidden">
+                                                            <div class="p-4 pb-6">
+
+                                                          <iframe width="500" height="350" src="https://www.youtube.com/embed/fy6ql7bIcwE?si=VebIHFecsiHAZEp7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-----------КОНЕЦ СЕКЦИИ ПРИЛОЖЕНИЯ----------------------------->
+                                                <div
+                                                    class="text-white bg-gradient-to-r from-rose-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
+                                                    <!-- Accordion item -->
+                                                    <div x-data="{ expanded: false }">
+                                                        <h2>
+                                                            <button style="direction: ltr;" id="faqs-title-01"
+                                                                type="button"
+                                                                class="flex items-center p-4 justify-between w-full text-left font-semibold"
+                                                                @click="expanded = !expanded" :aria-expanded="expanded"
+                                                                aria-controls="faqs-text-01">
+                                                                <div
+                                                                    class="flex items-center justify-start gap-x-2 text-lg sm:text-xl font-medium">
+
+                                                                    <span>Смотреть ролик на RuTube
+                                                                    </span>
+                                                                </div>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                    viewBox="0 0 24 24" stroke-width="1.5"
+                                                                    stroke="currentColor"
+                                                                    :class="{'!rotate-180': expanded}"
+                                                                    class="w-6 h-6 mx-6 transform origin-center transition duration-200 ease-out">
+                                                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                                                        d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                                                                </svg>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="faqs-text-01" role="region"
+                                                            aria-labelledby="faqs-title-01"
+                                                            class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
+                                                            :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
+                                                            <div class="overflow-hidden">
+                                                                <div class="p-4 pb-6">
+																<iframe width="500" height="350" src="https://rutube.ru/play/embed/9e444a97a5261cf9bb9ceb57744ba5e8/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+												<div
+                                                    class="text-white bg-gradient-to-r from-slate-500 via-zinc-600 to-gray-900 focus:ring-4 focus:outline-none focus:ring-teal-300 transition-all duration-300 font-medium rounded-2xl">
+                                                    <!-- Accordion item -->
+                                                    <div x-data="{ expanded: false }">
+                                                        <h2>
+                                                            <button style="direction: ltr;" id="faqs-title-01"
+                                                                type="button"
+                                                                class="flex items-center p-4 justify-between w-full text-left font-semibold"
+                                                                @click="expanded = !expanded" :aria-expanded="expanded"
+                                                                aria-controls="faqs-text-01">
+                                                                <div
+                                                                    class="flex items-center justify-start gap-x-2 text-lg sm:text-xl font-medium">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        version="1.0" class="w-6 h-6"
+                                                                        viewBox="0 0 170.000000 170.000000"
+                                                                        preserveAspectRatio="xMidYMid meet">
+
+                                                                        <g transform="translate(0.000000,170.000000) scale(0.100000,-0.100000)"
+                                                                            fill="#FFF" stroke="none">
+                                                                            <path
+                                                                                d="M230 1385 l0 -75 75 0 75 0 2 -549 3 -549 580 616 c319 338 582 619 583 624 2 4 -86 8 -195 8 l-198 0 -275 -257 -275 -256 -5 254 -5 254 -182 3 -183 2 0 -75z" />
+                                                                        </g>
+                                                                    </svg>
+                                                                    <div
+                                                                        class="flex items-center justify-start gap-x-2">
+                                                                        <span>V2rayNG для TV
+                                                                        </span>
+                                                                        <div
+                                                                            class="bg-gray-100 pb-1.5 px-2 pt-1 rounded-full">
+
+                                                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                                                viewBox="0 0 24 24" fill="currentColor"
+                                                                                class="w-6 h-6 fill-yellow-500 stroke-yellow-500">
+                                                                                <path fill-rule="evenodd"
+                                                                                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                                                                                    clip-rule="evenodd" />
+                                                                            </svg>
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+                                                                    viewBox="0 0 24 24" stroke-width="1.5"
+                                                                    stroke="currentColor"
+                                                                    :class="{'!rotate-180': expanded}"
+                                                                    class="w-6 h-6 mx-6 transform origin-center transition duration-200 ease-out">
+                                                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                                                        d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                                                                </svg>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="faqs-text-01" role="region"
+                                                            aria-labelledby="faqs-title-01"
+                                                            class="grid text-sm text-white overflow-hidden transition-all duration-300 ease-in-out"
+                                                            :class="expanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'">
+                                                            <div class="overflow-hidden">
+                                                                <div class="p-4 pb-6">
+                                                                    <div
+                                                                        class="flex items-center rtl:mr-[-10px] ltr:ml-[-10px] md:rtl:mr-[-20px] md:ltr:ml-[-20px]">
+                                                                        <lord-icon
+                                                                            src="https://cdn.lordicon.com/mtdulhdc.json"
+                                                                            trigger="hover"
+                                                                            colors="primary:#fff,secondary:#fff"
+                                                                            class="w-12 h-12 md:w-20 md:h-20 ">
+                                                                        </lord-icon>
+                                                                        <h3 x-text="$t('downloadApp')"
+                                                                            class="text-xl font-black leading-none tracking-tight text-white md:text-2xl">
+                                                                        </h3>
+                                                                    </div>
+                                                                    <p x-text="$t('clickForDownload')"
+                                                                        class="text-sm mb-4 font-normal text-white lg:text-base">
+                                                                    </p>
+                                                                    <a href="https://github.com/2dust/v2rayNG/releases/download/1.8.9/v2rayNG_1.8.9.apk"
+                                                                        class="flex mb-4 items-center gap-x-4 w-full bg-gray-800 shadow-md px-3 py-2 rounded-3xl justify-between">
+                                                                        <lord-icon class="w-8 h-8"
+                                                                            src="https://cdn.lordicon.com/albqovim.json"
+                                                                            trigger="loop" delay="1500"
+                                                                            colors="primary:#fff" state="intro">
+                                                                        </lord-icon>
+                                                                        <span x-text="$t('download')"></span>
+                                                                        <lord-icon class="w-8 h-8"
+                                                                            src="https://cdn.lordicon.com/albqovim.json"
+                                                                            trigger="loop" delay="1500"
+                                                                            colors="primary:#fff" state="intro">
+                                                                        </lord-icon>
+                                                                    </a>
+                                                                    <div
+                                                                        class="flex items-center rtl:mr-[-10px] ltr:ml-[-10px] md:rtl:mr-[-20px] md:ltr:ml-[-20px]">
+                                                                        <lord-icon
+                                                                            src="https://cdn.lordicon.com/vcoyflbj.json"
+                                                                            trigger="hover"
+                                                                            colors="primary:#fff,secondary:#fff"
+                                                                            class="w-12 h-12 md:w-20 md:h-20 ">
+                                                                        </lord-icon>
+                                                                        <h3 class="text-xl font-black leading-none tracking-tight text-white md:text-2xl">
+                                                                        Cкачайте QR код</h3>
+                                                                    </div>
+                                                                    <p class="text-sm mb-4 font-normal text-white lg:text-base">
+                                                                     <button id="qrIconBtn"
+                            onclick="openDynamicModal('{{ user.username }} Subscription' ,  window.location.href)"
+                            class="bg-gray-100 border-gray-200 dark:bg-gray-700 dark:border-gray-600 rounded-xl pt-1 px-1">
+                            <lord-icon src="https://cdn.lordicon.com/fqrjldna.json" trigger="loop" delay="2000"
+                                colors="primary:#000,secondary:#000" class="w-10 h-10">
+                            </lord-icon>
+                        </button>
+																	</p>
+
+
+
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         <p x-text="$t('macInfo')" class="text-lg font-normal mb-4 text-gray-300 lg:text-xl"></p>
                     </div>
                     <h2 x-text="$t('generalAccess')"
@@ -6262,7 +6631,7 @@ function detectOS() {
                     <p x-text="$t('supTelInfo')" class="text-lg font-normal mb-4 text-gray-300 lg:text-xl"></p>
                     <div class="flex flex-col gap-y-4">
                         <h2 class="font-bold text-white text-2xl mb-2" x-text="$t('sup')"></h2>
-                        <a href="https://t.me/"
+                        <a href="https://t.me/pure_network_bot"
                             class="py-3 px-4 transition-all duration-200 inline-flex gap-x-3 justify-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-6 h-6 fill-white"
                                 viewBox="0 0 50 50">
@@ -6277,7 +6646,7 @@ function detectOS() {
                     </div>
                     <div class="flex flex-col gap-y-4">
                         <h2 class="font-bold text-white text-2xl mb-2" x-text="$t('sup')">Наш канал</h2>
-                        <a href="https://t.me/"
+                        <a href="https://t.me/vpncheapru"
                             class="py-3 px-4 transition-all duration-200 inline-flex gap-x-3 justify-center text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="w-6 h-6 fill-white"
                                 viewBox="0 0 50 50">
